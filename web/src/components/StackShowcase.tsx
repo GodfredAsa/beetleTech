@@ -1,4 +1,3 @@
-import { BeetleMark } from "@/components/BeetleMark";
 import { iconifySrc, stackCategories } from "@/lib/stack";
 
 export function StackShowcase() {
@@ -25,19 +24,15 @@ export function StackShowcase() {
                   className="group flex w-[7.5rem] flex-col items-center gap-3 rounded-2xl border border-[var(--border)] bg-[var(--elevated)] px-3 py-4 text-center shadow-sm transition-all duration-200 hover:border-[var(--accent)]/35 hover:shadow-[0_0_0_1px_rgba(45,212,191,0.12)] sm:w-[8rem]"
                 >
                   <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-[var(--surface)] ring-1 ring-[var(--border)] transition-colors group-hover:ring-[var(--accent)]/25">
-                    {item.icon === "beetle" ? (
-                      <BeetleMark className="h-10 w-10 object-contain" />
-                    ) : (
-                      <img
-                        src={iconifySrc(item.icon)}
-                        alt=""
-                        width={40}
-                        height={40}
-                        loading="lazy"
-                        decoding="async"
-                        className="h-10 w-10 object-contain"
-                      />
-                    )}
+                    <img
+                      src={iconifySrc(item.icon)}
+                      alt=""
+                      width={40}
+                      height={40}
+                      loading="lazy"
+                      decoding="async"
+                      className="h-10 w-10 object-contain"
+                    />
                   </div>
                   <span className="text-xs font-medium leading-snug text-[var(--foreground)]">
                     {item.label}

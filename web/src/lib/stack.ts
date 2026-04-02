@@ -1,7 +1,4 @@
-/**
- * `icon` is an Iconify id (`https://api.iconify.design/{id}.svg`), or the literal
- * `"beetle"` for the site brand mark (same asset as the favicon).
- */
+/** `icon` is an Iconify id: `https://api.iconify.design/{id}.svg` */
 export type StackItem = {
   label: string;
   icon: string;
@@ -65,7 +62,7 @@ export const stackCategories: StackCategory[] = [
     title: "Frontend",
     items: [
       { label: "React", icon: "devicon:react" },
-      { label: "Next.js", icon: "beetle" },
+      { label: "Next.js", icon: "devicon:nextjs" },
       { label: "Angular", icon: "devicon:angular" },
     ],
   },
