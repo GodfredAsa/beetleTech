@@ -54,6 +54,7 @@ export const stackCategories: StackCategory[] = [
     title: "Platform",
     items: [
       { label: "Docker", icon: "devicon:docker" },
+      { label: "Kubernetes", icon: "devicon:kubernetes" },
       { label: "CentOS", icon: "devicon:centos" },
       { label: "Linux", icon: "devicon:linux" },
     ],
