@@ -28,3 +28,31 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
+
+/* Custom beetle cursor: class toggled by `BeetleCursor` when active */
+html.beetle-cursor-active,
+html.beetle-cursor-active * {
+  cursor: none !important;
+}
+
+/* Keep a normal caret affordance inside editable fields */
+html.beetle-cursor-active input,
+html.beetle-cursor-active textarea,
+html.beetle-cursor-active [contenteditable="true"] {
+  cursor: text !important;
+}
+
+html.beetle-cursor-active select {
+  cursor: pointer !important;
+}
+
+@media print {
+  .beetle-cursor-root {
+    display: none !important;
+  }
+
+  html.beetle-cursor-active,
+  html.beetle-cursor-active * {
+    cursor: auto !important;
+  }
+}
