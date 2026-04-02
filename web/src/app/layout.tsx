@@ -21,10 +21,18 @@ export const metadata: Metadata = {
   title: `${site.ventureName} · ${site.tagline}`,
   description: site.bio,
   icons: {
-    icon: [{ url: site.brandIconSrc, type: "image/png" }],
+    icon: [
+      {
+        url: site.brandIconSrc,
+        type: "image/png",
+        sizes: "512x512",
+      },
+    ],
     apple: [
       { url: site.profilePhotoSrc, sizes: "180x180", type: "image/png" },
     ],
+    /** Tab / bookmark icon (many browsers still request `shortcut icon`). */
+    shortcut: site.brandIconSrc,
   },
   openGraph: {
     title: `${site.ventureName} · ${site.name}`,
