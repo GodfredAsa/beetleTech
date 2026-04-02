@@ -5,7 +5,7 @@ export const site = {
   /** Favicon + brand mark — PNG with transparency (`public/`). */
   brandIconSrc: "/beetle-icon.png",
   name: "Godfred Asumadu Asamoah",
-  tagline: "Software Engineer · Data Scientist · AWS",
+  tagline: "Software Engineer · Data Scientist · AWS · DevOps",
   bio: "Backends, APIs, cloud (AWS, Docker, Kubernetes), and analytics (Python, Power BI, Tableau). I build scalable systems, automation, and data-driven solutions — and teach analytics in classroom settings.",
   email: "godfred.asumadu.asamoah@gmail.com",
   phone: "+233 548670632",

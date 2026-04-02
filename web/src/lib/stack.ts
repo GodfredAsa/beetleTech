@@ -34,9 +34,9 @@ export const stackCategories: StackCategory[] = [
     ],
   },
   {
-    title: "Cloud & IaC",
+    title: "Cloud and infrastructure management",
     subtitle:
-      "AWS, CloudFormation templates/stacks, Terraform, and complementary provisioning patterns.",
+      "AWS workloads, Terraform and CloudFormation (templates/stacks), and complementary provisioning and lifecycle patterns.",
     items: [
       { label: "AWS", icon: "logos:aws" },
       { label: "Terraform", icon: "devicon:terraform" },
