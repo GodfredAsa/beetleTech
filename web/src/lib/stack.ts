@@ -31,6 +31,16 @@ export const stackCategories: StackCategory[] = [
     ],
   },
   {
+    title: "Analytics & BI",
+    subtitle:
+      "Dashboards, reporting, and self-serve insights — from spreadsheet analysis to stakeholder-ready BI deliverables.",
+    items: [
+      { label: "Excel", icon: "vscode-icons:file-type-excel" },
+      { label: "Power BI", icon: "logos:microsoft-power-bi" },
+      { label: "Tableau", icon: "logos:tableau" },
+    ],
+  },
+  {
     title: "Cloud and infrastructure management",
     subtitle:
       "AWS workloads, Terraform and CloudFormation (templates/stacks), and complementary provisioning and lifecycle patterns.",
