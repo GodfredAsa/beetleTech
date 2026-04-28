@@ -77,6 +77,23 @@ npm run start
 
 ---
 
+## Analytics (Excel, Microsoft Power BI, Tableau)
+
+This project supports an **analytics** offering built around common business reporting tools:
+
+- **Excel**: data cleaning, pivots, dashboards, and ad‑hoc analysis (CSV/XLSX inputs, KPI tracking, templates).
+- **Microsoft Power BI**: data modeling, Power Query transforms, DAX measures, and interactive dashboards for stakeholders.
+- **Tableau**: visual analytics, exploratory dashboards, and shareable stories for reporting and presentations.
+
+**Suggested place for analytics assets (optional):**
+
+- Create an `analytics/` folder at the repo root to store workbooks and exports, for example:
+  - `analytics/excel/` (templates, sample datasets)
+  - `analytics/powerbi/` (`.pbix`, model notes)
+  - `analytics/tableau/` (`.twb/.twbx`, extracts, exports)
+
+---
+
 ## Experience (site owner)
 
 Order matches the **Selected impact** section on the site (engineering and teaching).

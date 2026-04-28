@@ -5,8 +5,9 @@ export const site = {
   /** Favicon + brand mark — PNG with transparency (`public/`). */
   brandIconSrc: "/beetle-icon.png",
   name: "Godfred Asumadu Asamoah",
-  tagline: "Software Engineer · Data Scientist · AWS · DevOps",
-  bio: "Backends, APIs, cloud (AWS, Docker, Kubernetes), and analytics (Python, Power BI, Tableau). I build scalable systems, automation, and data-driven solutions — and teach analytics in classroom settings.",
+  tagline:
+    "Software Engineer · Data & Financial Analytics · Cloud Platform (AWS) · DevSecOps",
+  bio: "I build secure, scalable backends and cloud platforms on AWS (Docker, Kubernetes), and deliver data & financial analytics that turn raw datasets into decisions. I also teach analytics with hands-on, portfolio-ready projects using Python, Power BI, Tableau, and Excel.",
   email: "godfred.asumadu.asamoah@gmail.com",
   phone: "+233 548670632",
   /** Shown in footer; chat link uses the same digits without spaces. */

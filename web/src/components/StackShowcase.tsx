@@ -46,7 +46,7 @@ export function StackShowcase() {
       <p className="max-w-2xl text-sm leading-relaxed text-[var(--muted)]">
         Also frequent:{" "}
         <span className="text-[var(--foreground)]/90">
-          Node.js, Kubernetes, BI tools (Power BI, Tableau), Python data stack
+          Node.js, Kubernetes, Excel, BI tools (Power BI, Tableau), Python data stack
         </span>
         — mention your preferred tools in the inquiry form.
       </p>
